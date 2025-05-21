@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+int main() {
+  // Int array with 15 elements
+  int colorful_balls[15];
+  // Getting size by dividing size of array (15*4) to size of array's element (4)
+  int size = sizeof(colorful_balls) / sizeof(colorful_balls[0]);
+  // Printing result
+  printf("В коробке colorful_balls помещается %d шариков.\n", size);
+  return 0;
+}
